@@ -1,0 +1,25 @@
+{
+  "name": "cadeau_amplify_gen2",
+  "version": "1.0.0",
+  "description": "A new Flutter project.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-amplify/backend-deployer": "^0.4.3",
+    "aws-amplify": "^6.0.10"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^0.8.0",
+    "@aws-amplify/backend-cli": "^0.9.3",
+    "typescript": "^5.3.3"
+  }
+}
