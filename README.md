@@ -19,3 +19,8 @@ samples, guidance on mobile development, and a full API reference.
 ```
 npx amplify sandbox --config-format=dart --config-out-dir=lib
 ```
+
+To generate the model classes out of GraphQL schema, you can run the following command:
+```
+npx amplify generate graphql-client-code --format=modelgen --model-target=dart --out=lib/models
+``
